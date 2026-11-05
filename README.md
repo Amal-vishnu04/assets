@@ -113,17 +113,15 @@ mindmap
 + 🥈 [ACCESS GRANTED]  Bench Press Competition (2022) — 2nd Place
 ```
 
+
+
 ### ⟦ 07 // LIVE_TELEMETRY ⟧
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Amal-vishnu04&theme=dark&hide_border=true&background=0D1117&ring=FF2E97&fire=00F0FF&currStreakLabel=00F0FF&sideLabels=FF2E97&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=9CA3AF" width="70%" alt="streak" />
+  <img src="https://img.shields.io/github/followers/Amal-vishnu04?style=for-the-badge&logo=github&logoColor=00F0FF&labelColor=0D1117&color=00F0FF" />
+  <img src="https://img.shields.io/github/stars/Amal-vishnu04?style=for-the-badge&logo=github&logoColor=FF2E97&labelColor=0D1117&color=FF2E97" />
+  <img src="https://img.shields.io/github/created-at/Amal-vishnu04?style=for-the-badge&logo=github&logoColor=00F0FF&labelColor=0D1117&color=00F0FF&label=JOINED" />
 </p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Amal-vishnu04&layout=compact&hide_border=true&bg_color=0D1117&title_color=00F0FF&text_color=C9D1D9" width="45%" alt="langs" />
-</p>
-
----
 
 <details>
 <summary><code>$ sudo ./reveal_secret.sh</code> 🔐 (click if you dare)</summary>

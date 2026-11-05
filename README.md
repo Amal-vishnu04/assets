@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" width="100%" alt="Amal Vishnu G" />
+  <img src="https://raw.githubusercontent.com/Amal-vishnu04/assets/main/banner.svg" width="100%" alt="Amal Vishnu G" />
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/terminal.svg" width="100%" alt="terminal" />
+  <img src="https://raw.githubusercontent.com/Amal-vishnu04/assets/main/terminal.svg" width="100%" alt="terminal" />
 </p>
 
 ---

@@ -1,1 +1,65 @@
+<svg width="1000" height="300" viewBox="0 0 1000 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05060f"/>
+      <stop offset="0.6" stop-color="#1a0630"/>
+      <stop offset="1" stop-color="#05060f"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00f0ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00f0ff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#00f0ff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip"><rect width="1000" height="300" rx="14"/></clipPath>
+  </defs>
+  <style>
+    text { font-family: 'Courier New', monospace; }
+    .rain { fill: #00f0ff; font-size: 16px; opacity: .3; writing-mode: vertical-rl; letter-spacing: 4px; animation: fall linear infinite; }
+    @keyframes fall { from { transform: translateY(-300px); } to { transform: translateY(320px); } }
+    .title { font-size: 64px; font-weight: bold; text-anchor: middle; }
+    .g1 { fill: #ff2e97; animation: gl1 3s infinite; }
+    .g2 { fill: #00f0ff; animation: gl2 3s infinite; }
+    .g3 { fill: #ffffff; }
+    @keyframes gl1 { 0%,88%,100% { transform: translate(0,0); } 90% { transform: translate(-6px,2px); } 93% { transform: translate(5px,-2px); } 96% { transform: translate(-3px,1px); } }
+    @keyframes gl2 { 0%,88%,100% { transform: translate(0,0); } 91% { transform: translate(6px,-2px); } 94% { transform: translate(-5px,2px); } 97% { transform: translate(3px,-1px); } }
+    .sub { fill: #ff2e97; font-size: 20px; text-anchor: middle; letter-spacing: 2px; }
+    .prompt { fill: #00f0ff; font-size: 18px; }
+    .cursor { fill: #00f0ff; animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .scanline { animation: sweep 4s linear infinite; }
+    @keyframes sweep { from { transform: translateY(-60px); } to { transform: translateY(300px); } }
+    .frame { fill: none; stroke: #00f0ff; stroke-width: 2; stroke-dasharray: 14 10; animation: dash 1.5s linear infinite; }
+    @keyframes dash { to { stroke-dashoffset: -48; } }
+  </style>
 
+  <g clip-path="url(#clip)">
+    <rect width="1000" height="300" fill="url(#bg)"/>
+
+    <!-- MATRIX RAIN -->
+    <text x="40"  y="0" class="rain" style="animation-duration:6s">01AMAL1101MERN0110</text>
+    <text x="130" y="0" class="rain" style="animation-duration:8s;animation-delay:-3s">アイウエオ1001AI/ML</text>
+    <text x="220" y="0" class="rain" style="animation-duration:5s;animation-delay:-1s">1010FastAPI0101</text>
+    <text x="310" y="0" class="rain" style="animation-duration:7s;animation-delay:-4s">0110NODE1001JS</text>
+    <text x="400" y="0" class="rain" style="animation-duration:9s;animation-delay:-2s">カキクケコ0011REACT</text>
+    <text x="490" y="0" class="rain" style="animation-duration:6.5s;animation-delay:-5s">1101MongoDB0010</text>
+    <text x="580" y="0" class="rain" style="animation-duration:8.5s;animation-delay:-1s">0101SHIP1110IT</text>
+    <text x="670" y="0" class="rain" style="animation-duration:5.5s;animation-delay:-3s">サシスセソ1001DEV</text>
+    <text x="760" y="0" class="rain" style="animation-duration:7.5s;animation-delay:-6s">1010Docker0110</text>
+    <text x="850" y="0" class="rain" style="animation-duration:6s;animation-delay:-2s">0011COMMIT1101</text>
+    <text x="940" y="0" class="rain" style="animation-duration:9s;animation-delay:-4s">タチツテト0101GIT</text>
+
+    <!-- SCANLINE -->
+    <rect class="scanline" width="1000" height="60" fill="url(#scan)"/>
+
+    <!-- GLITCH TITLE -->
+    <text x="500" y="135" class="title g1">AMAL VISHNU G</text>
+    <text x="500" y="135" class="title g2">AMAL VISHNU G</text>
+    <text x="500" y="135" class="title g3">AMAL VISHNU G</text>
+
+    <text x="500" y="185" class="sub">FULL-STACK DEV // AI-ML EXPLORER // BUILDER</text>
+
+    <text x="320" y="245" class="prompt">root@amal:~$ ./ship --everything</text>
+    <rect class="cursor" x="640" y="229" width="11" height="20"/>
+  </g>
+  <rect class="frame" x="4" y="4" width="992" height="292" rx="12"/>
+</svg>

@@ -1,0 +1,29 @@
+<svg width="1000" height="360" viewBox="0 0 1000 360" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    text { font-family: 'Courier New', monospace; font-size: 18px; }
+    .l { opacity: 0; animation: show .01s forwards; }
+    @keyframes show { to { opacity: 1; } }
+    .c { fill: #00f0ff; } .m { fill: #ff2e97; } .w { fill: #e6edf3; } .g { fill: #39ff14; }
+    .cursor { fill: #00f0ff; animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+  <rect width="1000" height="360" rx="12" fill="#0b0f1a" stroke="#00f0ff" stroke-width="2"/>
+  <rect width="1000" height="38" rx="12" fill="#151b2e"/>
+  <circle cx="24" cy="19" r="7" fill="#ff5f56"/><circle cx="48" cy="19" r="7" fill="#ffbd2e"/><circle cx="72" cy="19" r="7" fill="#27c93f"/>
+  <text x="500" y="25" class="w" text-anchor="middle" style="font-size:14px">amal@coimbatore: ~</text>
+
+  <text x="24" y="75"  class="l m" style="animation-delay:.3s">┌──(amal㉿coimbatore)-[~]</text>
+  <text x="24" y="100" class="l c" style="animation-delay:.9s">└─$ <tspan class="w">neofetch</tspan></text>
+
+  <text x="24" y="140" class="l g" style="animation-delay:1.8s">[ OK ] Loading MERN stack ..................... done</text>
+  <text x="24" y="165" class="l g" style="animation-delay:2.6s">[ OK ] Mounting AI/ML + FastAPI modules ....... done</text>
+  <text x="24" y="190" class="l g" style="animation-delay:3.4s">[ OK ] Connecting to MongoDB / MySQL .......... done</text>
+
+  <text x="24" y="230" class="l c" style="animation-delay:4.4s">OS       <tspan class="w">: Full-Stack Dev v2026</tspan></text>
+  <text x="24" y="255" class="l c" style="animation-delay:4.9s">Uni      <tspan class="w">: Anna University (Suguna College of Engg)</tspan></text>
+  <text x="24" y="280" class="l c" style="animation-delay:5.4s">CGPA     <tspan class="w">: 8.1</tspan></text>
+  <text x="24" y="305" class="l c" style="animation-delay:5.9s">Status   <tspan class="w">: Open to work</tspan> <tspan class="m">// Full-Stack &amp; AI roles</tspan></text>
+
+  <text x="24" y="340" class="l c" style="animation-delay:6.6s">└─$ <tspan class="w">echo "ACCESS GRANTED"</tspan></text>
+  <rect class="cursor" x="330" y="324" width="11" height="20"/>
+</svg>
